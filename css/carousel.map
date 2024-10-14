@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "carousel.css",
+	"sources": [
+		"../scss/carousel.scss",
+		"../scss/_antheacol.scss"
+	],
+	"sourcesContent": [
+		"/* Before/After carousel*/\r\n@import 'antheacol.scss';\r\n\r\n* {\r\n    box-sizing: border-box;\r\n}\r\n\r\n#befaft p.pictextl, p.pictextr   {\r\n    \r\n    display: block;\r\n    background-color: $pictext-bg;\r\n    margin: 0;\r\n    padding: 5px 10px;\r\n    width: 100%;\r\n    color: $pictext-tx;\r\n    border: solid 1px $pictext-bd;\r\n    border-top: 0;\r\n}\r\n\r\n#befaft p.pictextl {\r\n    border-right: 0;\r\n    padding-left: 25px;\r\n}\r\n\r\n#befaft p.bothtext   {\r\n    width: 100%;\r\n    padding: 5px 10px;\r\n    background-color: $bothtext-bg;\r\n    color: $bothtext-tx;\r\n    border: solid 1px $bothtext-bd; \r\n    border-top: 0;\r\n}\r\n\r\n#befaft .beforepic, #befaft .afterpic {\r\n    display: block;\r\n    width: 100%;\r\n    border: solid 1px $piccol-bd;\r\n}\r\n\r\n",
+		"/* _antheacol.scss */\r\n\r\n$pictext-bg:    green; // Text on each picture\r\n$pictext-tx:    white;\r\n$pictext-bd:    grey;\r\n\r\n$bothtext-bg:   red;  // Text on Before/After summary\r\n$bothtext-tx:   white;\r\n$bothtext-bd:   grey;\r\n\r\n$piccol-bd:     grey;  // border color of pics\r\n\r\n\r\n\r\n"
+	],
+	"names": [],
+	"mappings": "AAAA,0BAA0B;ACA1B,qBAAqB;;ADGrB,AAAA,CAAC,CAAC;EACE,UAAU,EAAE,UAAU;CACzB;;;AAED,AAAA,OAAO,CAAC,CAAC,AAAA,SAAS,EAAE,CAAC,AAAA,SAAS,CAAG;EAE7B,OAAO,EAAE,KAAK;EACd,gBAAgB,ECRJ,KAAK;EDSjB,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,QAAQ;EACjB,KAAK,EAAE,IAAI;EACX,KAAK,ECXO,KAAK;EDYjB,MAAM,EAAE,KAAK,CAAC,GAAG,CCXL,IAAI;EDYhB,UAAU,EAAE,CAAC;CAChB;;;AAED,AAAA,OAAO,CAAC,CAAC,AAAA,SAAS,CAAC;EACf,YAAY,EAAE,CAAC;EACf,YAAY,EAAE,IAAI;CACrB;;;AAED,AAAA,OAAO,CAAC,CAAC,AAAA,SAAS,CAAG;EACjB,KAAK,EAAE,IAAI;EACX,OAAO,EAAE,QAAQ;EACjB,gBAAgB,ECrBJ,GAAG;EDsBf,KAAK,ECrBO,KAAK;EDsBjB,MAAM,EAAE,KAAK,CAAC,GAAG,CCrBL,IAAI;EDsBhB,UAAU,EAAE,CAAC;CAChB;;;AAED,AAAA,OAAO,CAAC,UAAU,EAAE,OAAO,CAAC,SAAS,CAAC;EAClC,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK,CAAC,GAAG,CC1BL,IAAI;CD2BnB"
+}

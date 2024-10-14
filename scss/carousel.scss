@@ -1,0 +1,39 @@
+/* Before/After carousel*/
+@import 'antheacol.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+#befaft p.pictextl, p.pictextr   {
+    
+    display: block;
+    background-color: $pictext-bg;
+    margin: 0;
+    padding: 5px 10px;
+    width: 100%;
+    color: $pictext-tx;
+    border: solid 1px $pictext-bd;
+    border-top: 0;
+}
+
+#befaft p.pictextl {
+    border-right: 0;
+    padding-left: 25px;
+}
+
+#befaft p.bothtext   {
+    width: 100%;
+    padding: 5px 10px;
+    background-color: $bothtext-bg;
+    color: $bothtext-tx;
+    border: solid 1px $bothtext-bd; 
+    border-top: 0;
+}
+
+#befaft .beforepic, #befaft .afterpic {
+    display: block;
+    width: 100%;
+    border: solid 1px $piccol-bd;
+}
+

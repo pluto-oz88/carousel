@@ -1,0 +1,43 @@
+/* Before/After carousel*/
+/* _antheacol.scss */
+/* line 4, ../../../Users/gduns/WAMP/carousel/scss/carousel.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 8, ../../../Users/gduns/WAMP/carousel/scss/carousel.scss */
+#befaft p.pictextl, p.pictextr {
+  display: block;
+  background-color: green;
+  margin: 0;
+  padding: 5px 10px;
+  width: 100%;
+  color: white;
+  border: solid 1px grey;
+  border-top: 0;
+}
+
+/* line 20, ../../../Users/gduns/WAMP/carousel/scss/carousel.scss */
+#befaft p.pictextl {
+  border-right: 0;
+  padding-left: 25px;
+}
+
+/* line 25, ../../../Users/gduns/WAMP/carousel/scss/carousel.scss */
+#befaft p.bothtext {
+  width: 100%;
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border: solid 1px grey;
+  border-top: 0;
+}
+
+/* line 34, ../../../Users/gduns/WAMP/carousel/scss/carousel.scss */
+#befaft .beforepic, #befaft .afterpic {
+  display: block;
+  width: 100%;
+  border: solid 1px grey;
+}
+
+/*# sourceMappingURL=carousel.css.map */
